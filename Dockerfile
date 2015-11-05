@@ -3,7 +3,7 @@ MAINTAINER Richard Lesouef <rlesouef@gmail.com>
 
 RUN \
     apk --update \
-    add bash \
+    add bash nano \
     && rm -rf /var/cache/apk/*
 
 COPY src/ .
