@@ -1,5 +1,4 @@
-# FROM alpine:latest
-FROM gliderlabs/alpine
+FROM alpine:latest
 MAINTAINER Richard Lesouef <rlesouef@gmail.com>
 
 RUN \
