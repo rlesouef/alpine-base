@@ -1,9 +1,7 @@
 # Alpine Base Image
 [![](https://badge.imagelayers.io/rlesouef/alpine-transmission:latest.svg)](https://imagelayers.io/?images=rlesouef/alpine-transmission:latest 'Get your own badge on imagelayers.io')
 
-## docker-transmission
-
-Transmission Daemon Docker Container
+A small Docker image based on Alpine Linux
 
 Try it out
 ----------
