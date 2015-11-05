@@ -9,5 +9,9 @@ Usage
 Example:
 
     FROM rlesouef/alpine-base
-    RUN apk-install mysql-client
+    
+    RUN apk add --update \
+	mysql \
+	&& rm -rf /var/cache/apk/*
+	
     ENTRYPOINT ["mysql"]
