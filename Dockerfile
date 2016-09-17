@@ -1,8 +1,7 @@
-FROM gliderlabs/alpine:3.3
+FROM alpine:latest
 
-RUN \
-    apk --update \
-    add bash nano \
+RUN apk --update add \
+    bash nano \
     && rm -rf /var/cache/apk/*
 
 COPY src/ .
